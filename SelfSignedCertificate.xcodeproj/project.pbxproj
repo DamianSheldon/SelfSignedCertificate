@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CA92CBDD6EC408813731B9 /* Pods_SelfSignedCertificate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4919EC0BC35C158E64308579 /* Pods_SelfSignedCertificate.framework */; };
+		582CA2771E110E0F00C159C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CA2761E110E0F00C159C6 /* AppDelegate.swift */; };
+		582CA2791E110E0F00C159C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CA2781E110E0F00C159C6 /* ViewController.swift */; };
+		582CA27C1E110E1000C159C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582CA27A1E110E1000C159C6 /* Main.storyboard */; };
+		582CA27E1E110E1000C159C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582CA27D1E110E1000C159C6 /* Assets.xcassets */; };
+		582CA2811E110E1000C159C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582CA27F1E110E1000C159C6 /* LaunchScreen.storyboard */; };
+		582CA28C1E110E1200C159C6 /* SelfSignedCertificateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CA28B1E110E1200C159C6 /* SelfSignedCertificateTests.swift */; };
+		582CA2971E1207A700C159C6 /* ClientCertificates.cer in Resources */ = {isa = PBXBuildFile; fileRef = 582CA2961E1207A700C159C6 /* ClientCertificates.cer */; };
+		583F74851E14F7BC006921FF /* ServerCertificates.cer in Resources */ = {isa = PBXBuildFile; fileRef = 583F74841E14F7BC006921FF /* ServerCertificates.cer */; };
+		72290D901BF4A43844AD32A3 /* Pods_SelfSignedCertificateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3698A43BAF615454FE68B31 /* Pods_SelfSignedCertificateTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		582CA2881E110E1200C159C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 582CA26B1E110E0F00C159C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 582CA2721E110E0F00C159C6;
+			remoteInfo = SelfSignedCertificate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4629C379F9B8C02986CEC587 /* Pods-SelfSignedCertificate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCertificate.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCertificate/Pods-SelfSignedCertificate.release.xcconfig"; sourceTree = "<group>"; };
+		4919EC0BC35C158E64308579 /* Pods_SelfSignedCertificate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfSignedCertificate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582CA2731E110E0F00C159C6 /* SelfSignedCertificate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfSignedCertificate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		582CA2761E110E0F00C159C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		582CA2781E110E0F00C159C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		582CA27B1E110E1000C159C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		582CA27D1E110E1000C159C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		582CA2801E110E1000C159C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		582CA2821E110E1000C159C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582CA2871E110E1100C159C6 /* SelfSignedCertificateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfSignedCertificateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		582CA28B1E110E1200C159C6 /* SelfSignedCertificateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSignedCertificateTests.swift; sourceTree = "<group>"; };
+		582CA28D1E110E1200C159C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582CA2961E1207A700C159C6 /* ClientCertificates.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClientCertificates.cer; sourceTree = "<group>"; };
+		583F74841E14F7BC006921FF /* ServerCertificates.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ServerCertificates.cer; sourceTree = "<group>"; };
+		D1391F780CB7E1C935C1BD7B /* Pods-SelfSignedCertificate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCertificate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCertificate/Pods-SelfSignedCertificate.debug.xcconfig"; sourceTree = "<group>"; };
+		D989667FAE77829ACA6582EA /* Pods-SelfSignedCertificateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCertificateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCertificateTests/Pods-SelfSignedCertificateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3698A43BAF615454FE68B31 /* Pods_SelfSignedCertificateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfSignedCertificateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F106058E0EB428664F121BB3 /* Pods-SelfSignedCertificateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfSignedCertificateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelfSignedCertificateTests/Pods-SelfSignedCertificateTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582CA2701E110E0F00C159C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CA92CBDD6EC408813731B9 /* Pods_SelfSignedCertificate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582CA2841E110E1100C159C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72290D901BF4A43844AD32A3 /* Pods_SelfSignedCertificateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02221B2DD03C698C78988D94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4919EC0BC35C158E64308579 /* Pods_SelfSignedCertificate.framework */,
+				E3698A43BAF615454FE68B31 /* Pods_SelfSignedCertificateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		390F3CC638656EDC075CACE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1391F780CB7E1C935C1BD7B /* Pods-SelfSignedCertificate.debug.xcconfig */,
+				4629C379F9B8C02986CEC587 /* Pods-SelfSignedCertificate.release.xcconfig */,
+				D989667FAE77829ACA6582EA /* Pods-SelfSignedCertificateTests.debug.xcconfig */,
+				F106058E0EB428664F121BB3 /* Pods-SelfSignedCertificateTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		582CA26A1E110E0F00C159C6 = {
+			isa = PBXGroup;
+			children = (
+				582CA2751E110E0F00C159C6 /* SelfSignedCertificate */,
+				582CA28A1E110E1200C159C6 /* SelfSignedCertificateTests */,
+				582CA2741E110E0F00C159C6 /* Products */,
+				390F3CC638656EDC075CACE4 /* Pods */,
+				02221B2DD03C698C78988D94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		582CA2741E110E0F00C159C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582CA2731E110E0F00C159C6 /* SelfSignedCertificate.app */,
+				582CA2871E110E1100C159C6 /* SelfSignedCertificateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582CA2751E110E0F00C159C6 /* SelfSignedCertificate */ = {
+			isa = PBXGroup;
+			children = (
+				582CA2761E110E0F00C159C6 /* AppDelegate.swift */,
+				582CA2781E110E0F00C159C6 /* ViewController.swift */,
+				582CA27A1E110E1000C159C6 /* Main.storyboard */,
+				582CA27D1E110E1000C159C6 /* Assets.xcassets */,
+				582CA27F1E110E1000C159C6 /* LaunchScreen.storyboard */,
+				582CA2821E110E1000C159C6 /* Info.plist */,
+				583F74841E14F7BC006921FF /* ServerCertificates.cer */,
+				582CA2961E1207A700C159C6 /* ClientCertificates.cer */,
+			);
+			path = SelfSignedCertificate;
+			sourceTree = "<group>";
+		};
+		582CA28A1E110E1200C159C6 /* SelfSignedCertificateTests */ = {
+			isa = PBXGroup;
+			children = (
+				582CA28B1E110E1200C159C6 /* SelfSignedCertificateTests.swift */,
+				582CA28D1E110E1200C159C6 /* Info.plist */,
+			);
+			path = SelfSignedCertificateTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582CA2721E110E0F00C159C6 /* SelfSignedCertificate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582CA2901E110E1200C159C6 /* Build configuration list for PBXNativeTarget "SelfSignedCertificate" */;
+			buildPhases = (
+				5705D5C0A3F382DD091E6C7F /* [CP] Check Pods Manifest.lock */,
+				582CA26F1E110E0F00C159C6 /* Sources */,
+				582CA2701E110E0F00C159C6 /* Frameworks */,
+				582CA2711E110E0F00C159C6 /* Resources */,
+				29A3F20C988047C634AB5AB3 /* [CP] Embed Pods Frameworks */,
+				5DE385EF2CD110C0CABCE5A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfSignedCertificate;
+			productName = SelfSignedCertificate;
+			productReference = 582CA2731E110E0F00C159C6 /* SelfSignedCertificate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		582CA2861E110E1100C159C6 /* SelfSignedCertificateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582CA2931E110E1200C159C6 /* Build configuration list for PBXNativeTarget "SelfSignedCertificateTests" */;
+			buildPhases = (
+				89FE4311C51CBD8C61CB5677 /* [CP] Check Pods Manifest.lock */,
+				582CA2831E110E1100C159C6 /* Sources */,
+				582CA2841E110E1100C159C6 /* Frameworks */,
+				582CA2851E110E1100C159C6 /* Resources */,
+				E5A2DE7E8EA9E06510805F09 /* [CP] Embed Pods Frameworks */,
+				73AFAB0A0184486B34EFEF52 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				582CA2891E110E1200C159C6 /* PBXTargetDependency */,
+			);
+			name = SelfSignedCertificateTests;
+			productName = SelfSignedCertificateTests;
+			productReference = 582CA2871E110E1100C159C6 /* SelfSignedCertificateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582CA26B1E110E0F00C159C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Meiliang Dong";
+				TargetAttributes = {
+					582CA2721E110E0F00C159C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 98WR9248J9;
+						ProvisioningStyle = Automatic;
+					};
+					582CA2861E110E1100C159C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 98WR9248J9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 582CA2721E110E0F00C159C6;
+					};
+				};
+			};
+			buildConfigurationList = 582CA26E1E110E0F00C159C6 /* Build configuration list for PBXProject "SelfSignedCertificate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582CA26A1E110E0F00C159C6;
+			productRefGroup = 582CA2741E110E0F00C159C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582CA2721E110E0F00C159C6 /* SelfSignedCertificate */,
+				582CA2861E110E1100C159C6 /* SelfSignedCertificateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582CA2711E110E0F00C159C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583F74851E14F7BC006921FF /* ServerCertificates.cer in Resources */,
+				582CA2811E110E1000C159C6 /* LaunchScreen.storyboard in Resources */,
+				582CA27E1E110E1000C159C6 /* Assets.xcassets in Resources */,
+				582CA27C1E110E1000C159C6 /* Main.storyboard in Resources */,
+				582CA2971E1207A700C159C6 /* ClientCertificates.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582CA2851E110E1100C159C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29A3F20C988047C634AB5AB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfSignedCertificate/Pods-SelfSignedCertificate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5705D5C0A3F382DD091E6C7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE385EF2CD110C0CABCE5A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfSignedCertificate/Pods-SelfSignedCertificate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73AFAB0A0184486B34EFEF52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfSignedCertificateTests/Pods-SelfSignedCertificateTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89FE4311C51CBD8C61CB5677 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A2DE7E8EA9E06510805F09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelfSignedCertificateTests/Pods-SelfSignedCertificateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582CA26F1E110E0F00C159C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582CA2791E110E0F00C159C6 /* ViewController.swift in Sources */,
+				582CA2771E110E0F00C159C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582CA2831E110E1100C159C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582CA28C1E110E1200C159C6 /* SelfSignedCertificateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		582CA2891E110E1200C159C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 582CA2721E110E0F00C159C6 /* SelfSignedCertificate */;
+			targetProxy = 582CA2881E110E1200C159C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		582CA27A1E110E1000C159C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582CA27B1E110E1000C159C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		582CA27F1E110E1000C159C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582CA2801E110E1000C159C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582CA28E1E110E1200C159C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		582CA28F1E110E1200C159C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582CA2911E110E1200C159C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1391F780CB7E1C935C1BD7B /* Pods-SelfSignedCertificate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98WR9248J9;
+				INFOPLIST_FILE = SelfSignedCertificate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meiliang.SelfSignedCertificate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		582CA2921E110E1200C159C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4629C379F9B8C02986CEC587 /* Pods-SelfSignedCertificate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98WR9248J9;
+				INFOPLIST_FILE = SelfSignedCertificate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meiliang.SelfSignedCertificate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		582CA2941E110E1200C159C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D989667FAE77829ACA6582EA /* Pods-SelfSignedCertificateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98WR9248J9;
+				INFOPLIST_FILE = SelfSignedCertificateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meiliang.SelfSignedCertificateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfSignedCertificate.app/SelfSignedCertificate";
+			};
+			name = Debug;
+		};
+		582CA2951E110E1200C159C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F106058E0EB428664F121BB3 /* Pods-SelfSignedCertificateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98WR9248J9;
+				INFOPLIST_FILE = SelfSignedCertificateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meiliang.SelfSignedCertificateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfSignedCertificate.app/SelfSignedCertificate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582CA26E1E110E0F00C159C6 /* Build configuration list for PBXProject "SelfSignedCertificate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582CA28E1E110E1200C159C6 /* Debug */,
+				582CA28F1E110E1200C159C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582CA2901E110E1200C159C6 /* Build configuration list for PBXNativeTarget "SelfSignedCertificate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582CA2911E110E1200C159C6 /* Debug */,
+				582CA2921E110E1200C159C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582CA2931E110E1200C159C6 /* Build configuration list for PBXNativeTarget "SelfSignedCertificateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582CA2941E110E1200C159C6 /* Debug */,
+				582CA2951E110E1200C159C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582CA26B1E110E0F00C159C6 /* Project object */;
+}
